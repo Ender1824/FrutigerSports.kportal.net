@@ -2,15 +2,15 @@
 
 The website for **Frutiger Sports**, a bright, bubbly sports game for iPhone where your phone is the controller. Swing it to play table tennis, golf, bowling and archery, on your own or against a friend nearby.
 
-**Live site:** https://frutigersports.kportal.net
+**Live site:** https://www.frutigersports.kportal.net
 
 ## Pages
 
 | Page | URL | What it's for |
 | --- | --- | --- |
-| Home | [`/`](https://frutigersports.kportal.net/) | What the app is, the four sports, Play Nearby, and contact |
-| Privacy Policy | [`/privacy/`](https://frutigersports.kportal.net/privacy/) | How the app handles information (App Store privacy policy URL) |
-| Support | [`/support/`](https://frutigersports.kportal.net/support/) | Common questions and how to get help (App Store support URL) |
+| Home | [`/`](https://www.frutigersports.kportal.net/) | What the app is, the four sports, Play Nearby, and contact |
+| Privacy Policy | [`/privacy/`](https://www.frutigersports.kportal.net/privacy/) | How the app handles information (App Store privacy policy URL) |
+| Support | [`/support/`](https://www.frutigersports.kportal.net/support/) | Common questions and how to get help (App Store support URL) |
 
 ## About the app
 
@@ -45,7 +45,7 @@ python3 -m http.server 8000
 
 1. Push this folder's contents to the root of the repository.
 2. In the repository, go to **Settings › Pages** and set the source to **Deploy from a branch**, using the `main` branch and the `/ (root)` folder.
-3. The `CNAME` file sets the custom domain to `frutigersports.kportal.net`. At your DNS provider, add a `CNAME` record for `frutigersports` pointing to `<your-github-username>.github.io`.
+3. The `CNAME` file sets the custom domain to `www.frutigersports.kportal.net`. At your DNS provider, add a `CNAME` record for `www.frutigersports` pointing to `<your-github-username>.github.io`.
 4. Once the domain is verified, turn on **Enforce HTTPS** in **Settings › Pages**.
 
 ## Contact
